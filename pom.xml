@@ -125,6 +125,11 @@
                 <version>${powsybl-case-datasource-client.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-network-store-client</artifactId>
+                <version>${powsybl-network-store.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.glassfish.tyrus.bundles</groupId>
                 <artifactId>tyrus-standalone-client</artifactId>
                 <version>${websocket-tyrus.version}</version>
