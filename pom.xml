@@ -20,7 +20,7 @@
     </parent>
 
     <artifactId>powsybl-ws-dependencies</artifactId>
-    <version>2.2.0-SNAPSHOT</version>
+    <version>2.2.0</version>
     <packaging>pom</packaging>
 
     <name>PowSyBl Web Services Dependencies</name>
@@ -52,9 +52,9 @@
         <lombok.version>1.18.24</lombok.version>
         <mock.web.server.version>4.6.0</mock.web.server.version>
         <wiremock.version>2.35.0</wiremock.version>
-        <powsybl-dependencies.version>2023.2.0-SNAPSHOT</powsybl-dependencies.version>
-        <powsybl-case-datasource-client.version>1.0.0</powsybl-case-datasource-client.version>
-        <powsybl-network-store-client.version>1.0.0</powsybl-network-store-client.version>
+        <powsybl-dependencies.version>2023.1.1</powsybl-dependencies.version>
+        <powsybl-case-datasource-client.version>1.1.0-SNAPSHOT</powsybl-case-datasource-client.version>
+        <powsybl-network-store-client.version>1.1.0-SNAPSHOT</powsybl-network-store-client.version>
         <powsybl-ws-commons.version>1.4.0-SNAPSHOT</powsybl-ws-commons.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
         <springboot.version>2.7.3</springboot.version>
