@@ -52,10 +52,10 @@
         <lombok.version>1.18.24</lombok.version>
         <mock.web.server.version>4.6.0</mock.web.server.version>
         <wiremock.version>3.0.4</wiremock.version>
-        <powsybl-dependencies.version>2024.0.3</powsybl-dependencies.version>
-        <powsybl-case-datasource-client.version>1.7.0</powsybl-case-datasource-client.version>
-        <powsybl-network-store-client.version>1.10.0</powsybl-network-store-client.version>
-        <powsybl-ws-commons.version>1.9.0</powsybl-ws-commons.version>
+        <powsybl-dependencies.version>2024.1.0</powsybl-dependencies.version>
+        <powsybl-case-datasource-client.version>1.8.0</powsybl-case-datasource-client.version>
+        <powsybl-network-store-client.version>1.11.0</powsybl-network-store-client.version>
+        <powsybl-ws-commons.version>1.10.0</powsybl-ws-commons.version>
         <spring-cloud.version>2022.0.3</spring-cloud.version>
         <springboot.version>3.1.2</springboot.version>
         <springdoc-openapi-starter-webmvc-ui.version>2.1.0</springdoc-openapi-starter-webmvc-ui.version>
