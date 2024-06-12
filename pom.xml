@@ -54,7 +54,7 @@
         <wiremock.version>3.0.4</wiremock.version>
         <powsybl-dependencies.version>2024.1.0</powsybl-dependencies.version>
         <powsybl-case-datasource-client.version>1.8.0</powsybl-case-datasource-client.version>
-        <powsybl-network-store-client.version>1.11.0</powsybl-network-store-client.version>
+        <powsybl-network-store-client.version>1.12.0</powsybl-network-store-client.version>
         <powsybl-ws-commons.version>1.10.0</powsybl-ws-commons.version>
         <spring-cloud.version>2022.0.3</spring-cloud.version>
         <springboot.version>3.1.2</springboot.version>
