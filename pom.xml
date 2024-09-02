@@ -111,7 +111,7 @@
             <dependency>
                 <groupId>org.wiremock</groupId>
                 <artifactId>wiremock-jetty12</artifactId>
-                <version>3.9.1</version>
+                <version>${wiremock.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
