@@ -60,7 +60,7 @@
         <!-- FIXME: upgrade to spring-cloud: 2023.0.4 when it is available -->
         <!-- versions 2023.0.2 and 2023.0.3 of spring-cloud cause the following problem : https://github.com/spring-cloud/spring-cloud-stream/issues/2988 -->
         <spring-cloud.version>2023.0.1</spring-cloud.version>
-        <springboot.version>3.3.2</springboot.version>
+        <springboot.version>3.3.3</springboot.version>
         <springdoc-openapi-starter-webmvc-ui.version>2.1.0</springdoc-openapi-starter-webmvc-ui.version>
         <springdoc-openapi-starter-webflux-ui.version>2.1.0</springdoc-openapi-starter-webflux-ui.version>
         <websocket-tyrus.version>2.1.2</websocket-tyrus.version>
