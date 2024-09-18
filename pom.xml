@@ -51,13 +51,16 @@
     <properties>
         <lombok.version>1.18.24</lombok.version>
         <mock.web.server.version>4.6.0</mock.web.server.version>
-        <wiremock.version>3.0.4</wiremock.version>
+        <wiremock.version>3.9.1</wiremock.version>
         <powsybl-dependencies.version>2024.2.0</powsybl-dependencies.version>
         <powsybl-case-datasource-client.version>1.9.0</powsybl-case-datasource-client.version>
         <powsybl-network-store-client.version>1.14.0</powsybl-network-store-client.version>
         <powsybl-ws-commons.version>1.13.0</powsybl-ws-commons.version>
-        <spring-cloud.version>2022.0.3</spring-cloud.version>
-        <springboot.version>3.1.2</springboot.version>
+
+        <!-- FIXME: upgrade to spring-cloud: 2023.0.4 when it is available -->
+        <!-- versions 2023.0.2 and 2023.0.3 of spring-cloud cause the following problem : https://github.com/spring-cloud/spring-cloud-stream/issues/2988 -->
+        <spring-cloud.version>2023.0.1</spring-cloud.version>
+        <springboot.version>3.3.3</springboot.version>
         <springdoc-openapi-starter-webmvc-ui.version>2.1.0</springdoc-openapi-starter-webmvc-ui.version>
         <springdoc-openapi-starter-webflux-ui.version>2.1.0</springdoc-openapi-starter-webflux-ui.version>
         <websocket-tyrus.version>2.1.2</websocket-tyrus.version>
@@ -110,7 +113,7 @@
             </dependency>
             <dependency>
                 <groupId>org.wiremock</groupId>
-                <artifactId>wiremock</artifactId>
+                <artifactId>wiremock-jetty12</artifactId>
                 <version>${wiremock.version}</version>
             </dependency>
             <dependency>
