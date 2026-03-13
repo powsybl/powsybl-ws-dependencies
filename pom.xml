@@ -61,6 +61,8 @@
         <springdoc-openapi-starter-webmvc-ui.version>2.8.11</springdoc-openapi-starter-webmvc-ui.version>
         <springdoc-openapi-starter-webflux-ui.version>2.8.11</springdoc-openapi-starter-webflux-ui.version>
         <websocket-tyrus.version>2.1.2</websocket-tyrus.version>
+        <sonar.organization>powsybl-ci-github</sonar.organization>
+        <sonar.projectKey>com.powsybl:powsybl-ws-dependencies</sonar.projectKey>
     </properties>
     <dependencyManagement>
         <dependencies>
