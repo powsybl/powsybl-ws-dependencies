@@ -13,4 +13,5 @@ jobs:
       eventOrganizations: gridsuite
       eventType: ws_dependencies_updated
     secrets:
+      sonar-token: ${{ secrets.SONAR_TOKEN }}
       repo-token: ${{ secrets.REPO_ACCESS_TOKEN }}
